@@ -37,3 +37,4 @@ from top.api.rest.TbkSpreadGetRequest import TbkSpreadGetRequest
 from top.api.rest.TbkItemRecommendGetRequest import TbkItemRecommendGetRequest
 from top.api.rest.FilesGetRequest import FilesGetRequest
 from top.api.rest.JuItemsSearchRequest import JuItemsSearchRequest
+from top.api.rest.TbkItemConvertRequest import TbkItemConvertRequest
