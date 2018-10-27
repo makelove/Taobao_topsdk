@@ -25,6 +25,7 @@ class TbkOrderGetRequest(RestApi):
         # self.adzone_id = None
         # self.site_id = None
         #
+        self.activity_id = None# 不知道？
         self.fields = None#需返回的字段列表
         self.start_time = None#订单查询开始时间
         self.span = None#订单查询时间范围,单位:秒,最小60,最大600,默认60
