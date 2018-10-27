@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 '''
 Created by auto_sdk on 2018.07.25
 【导购】链接转换-根据商品ID获取该商品的优惠券

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from top.api.rest.TbkShopRecommendGetRequest import TbkShopRecommendGetRequest
 from top.api.rest.TbkTpwdCreateRequest import TbkTpwdCreateRequest
 from top.api.rest.TbkJuTqgGetRequest import TbkJuTqgGetRequest
