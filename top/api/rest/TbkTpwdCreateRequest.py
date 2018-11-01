@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 '''
 Created by auto_sdk on 2018.04.04
+
+http://open.taobao.com/docs/api.htm?apiId=31127
 '''
 from top.api.base import RestApi
 
