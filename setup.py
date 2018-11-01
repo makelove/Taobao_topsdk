@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='topsdk',
-    version='1.0.1',
+    version='18.11.1',#按日期
     author='top',
     author_email='xuteng.xt@alibaba-inc.com',
     packages=find_packages(),

@@ -39,6 +39,14 @@ from top.api.rest.TbkItemRecommendGetRequest import TbkItemRecommendGetRequest
 from top.api.rest.FilesGetRequest import FilesGetRequest
 from top.api.rest.JuItemsSearchRequest import JuItemsSearchRequest
 from top.api.rest.TbkItemConvertRequest import TbkItemConvertRequest
-#新添加的
+# 新添加的
 from top.api.rest.TbkOrderGetRequest import TbkOrderGetRequest
 from top.api.rest.TbkCouponConvertRequest import TbkCouponConvertRequest
+# 2018.11.1
+from top.api.rest.TbkShopConvertRequest import TbkShopConvertRequest
+from top.api.rest.TbkScOptimusMaterialRequest import TbkScOptimusMaterialRequest
+from top.api.rest.TbkTpwdConvertRequest import TbkTpwdConvertRequest
+from top.api.rest.TbkScNewuserOrderSumRequest import TbkScNewuserOrderSumRequest
+from top.api.rest.TbkDgNewuserOrderSumRequest import TbkDgNewuserOrderSumRequest
+from top.api.rest.TbkDgOptimusMaterialRequest import TbkDgOptimusMaterialRequest
+#
