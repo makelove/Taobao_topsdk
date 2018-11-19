@@ -12,6 +12,9 @@
     - 更方便
         - https://pypi.org/project/topsdk/
         - pip install topsdk
+        - pip install topsdk --upgrade
+        - 卸载 
+            - pip uninstall topsdk
     
 - 更新update
     - 2018.11.1

@@ -5,7 +5,7 @@ Created on 2012-6-29
 @author: lihao
 '''
 
-__version__ = '18.11.18'
+__version__ = '18.11.19'
 __author__ = 'play4fun <play4fun@foxmail.com>'
 
 from top.api.base import sign
