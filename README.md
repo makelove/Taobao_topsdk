@@ -9,6 +9,8 @@
 - 安装
     - python setup.py clean 
     - python setup.py install 
+    - 更方便
+        - pip install topsdk
     
 - 更新update
     - 2018.11.1
