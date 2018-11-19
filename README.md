@@ -10,6 +10,7 @@
     - python setup.py clean 
     - python setup.py install 
     - 更方便
+        - https://pypi.org/project/topsdk/
         - pip install topsdk
     
 - 更新update
