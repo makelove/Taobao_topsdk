@@ -1,5 +1,5 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
+#!/usr/bin/env python
 
 from setuptools import setup, find_packages
 
@@ -9,7 +9,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='topsdk',
-    version='18.12.27',  # 按日期
+    version='18.12.27.15',  # 按日期
     author='top',
     author_email='xuteng.xt@alibaba-inc.com',
     packages=find_packages(),

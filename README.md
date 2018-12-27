@@ -26,3 +26,14 @@
             - 把别人的淘口令转成自己的淘口令
             -  跟 TbkTpwdCreateRequest 相反
             
+- 上传到pypi
+    - rm -rf build dist
+    - 打包
+        - python3 setup.py sdist bdist_wheel
+    - ls dist/
+    - 上传
+        - twine upload dist/*
+    - 不能安装问题
+        - UnicodeEncodeError: 'ascii' codec can't encode characters in position 38-42: ordinal not in range(128)
+        - 在py文件头添加
+            - # -*- coding: utf-8 -*-

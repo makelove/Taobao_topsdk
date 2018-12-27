@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 '''
 Created by auto_sdk on 2014.03.27
 '''

@@ -6,7 +6,6 @@ Created on 2014-6-17
 '''
 import aliyun.api
 
-
 '''
 这边可以设置一个默认的accessKeyId和accessKeySecret，当然也可以不设置
 注意：默认的只需要设置一次就可以了
@@ -35,9 +34,8 @@ a.set_app_info(aliyun.appinfo("accessKeyId","accessKeySecret"))
 a.DBInstanceId = ""
 
 try:
-    print("begin");
-    f= a.getResponse()
+    print("begin")
+    f = a.getResponse()
     print(f)
-except Exception,e:
+except Exception as e:
     print(e)
-    

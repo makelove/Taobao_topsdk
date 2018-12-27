@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 '''
 Created by auto_sdk on 2018.07.25
 https://open-doc.dingtalk.com/docs/api.htm?apiId=24523
