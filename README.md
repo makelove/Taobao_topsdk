@@ -36,4 +36,7 @@
     - 不能安装问题
         - UnicodeEncodeError: 'ascii' codec can't encode characters in position 38-42: ordinal not in range(128)
         - 在py文件头添加
-            - # -*- coding: utf-8 -*-
+        ```python
+        # -*- coding: utf-8 -*-
+        ```
+        - 1
