@@ -25,14 +25,14 @@ class TbkOrderGetRequest(RestApi):
         # self.adzone_id = None
         # self.site_id = None
         #
-        self.activity_id = None# 不知道？
-        self.fields = None#需返回的字段列表
-        self.start_time = None#订单查询开始时间
-        self.span = None#订单查询时间范围,单位:秒,最小60,最大600,默认60
+        self.activity_id = None  # 不知道？
+        self.fields = None  # 需返回的字段列表
+        self.start_time = None  # 订单查询开始时间
+        self.span = None  # 订单查询时间范围,单位:秒,最小60,最大600,默认60
         self.page_no = None
         self.page_size = None
-        self.tk_status = None#非必须，订单状态，1: 全部订单，3：订单结算，12：订单付款， 13：订单失效，14：订单成功； 订单查询类型为‘结算时间’时，只能查订单结算状态
-        self.order_query_type = None#订单查询类型，创建时间“create_time”，或结算时间“settle_time”
+        self.tk_status = None  # 非必须，订单状态，1: 全部订单，3：订单结算，12：订单付款， 13：订单失效，14：订单成功； 订单查询类型为‘结算时间’时，只能查订单结算状态
+        self.order_query_type = None  # 订单查询类型，创建时间“create_time”，或结算时间“settle_time”
 
     def getapiname(self):
         return 'taobao.tbk.order.get'
