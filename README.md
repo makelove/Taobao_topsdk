@@ -40,3 +40,8 @@
         # -*- coding: utf-8 -*-
         ```
         - 1
+
+
+- 交流
+    - 扫码进群
+    <img src="http://images7n.dark.net.cn/cps-union-tb-jd-pdd.jpg" width = "300" height = "473" alt="wechat_donate"  />
