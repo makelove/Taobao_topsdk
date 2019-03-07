@@ -1,6 +1,18 @@
 # Taobao_topsdk
 淘宝客-淘宝联盟-阿里妈妈 topsdk
 
+- 文档
+    - 官方-淘宝客API https://open.taobao.com/api.htm?docId=24515&docType=2
+
+| key | 含义 |
+| ------ | ------ |
+| pict_url | 商品主图 |
+| reserve_price | 商品一口价格 |
+| zk_final_price | 商品折扣价格 |
+| volume | 30天销量 |
+| provcity | 宝贝所在地  发货地 |
+
+
 - 从淘宝下载的top，python是2.7的，满是bug
     - 现在已经修改为python 3.6
 - Enjoy！
