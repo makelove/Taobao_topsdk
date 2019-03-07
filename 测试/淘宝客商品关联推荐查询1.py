@@ -11,7 +11,7 @@
 
 返回 列表
 """
-
+from pprint import pprint
 from top.api import TbkItemRecommendGetRequest
 from top import appinfo
 
@@ -20,17 +20,18 @@ from config import appkey, secret
 req = TbkItemRecommendGetRequest()
 req.set_app_info(appinfo(appkey, secret))
 
-req.fields="num_iid,title,pict_url,small_images,reserve_price,zk_final_price,user_type,provcity,item_url"
-req.num_iid = "568659766675"
+req.fields = "num_iid,title,pict_url,small_images,reserve_price,zk_final_price,user_type,provcity,item_url,volume"
+req.num_iid = "549366958454"
 req.platform = 2  # 链接形式：1：PC，2：无线，默认：１
-req.count = 40
+req.count = 10
 
 try:
     resp = req.getResponse()
     import json
 
-    ds = json.dumps(resp)
-    print(ds)
+    # ds = json.dumps(resp, indent=2)
+    # print(ds)
+    pprint(resp, indent=2)
 except Exception as e:
     print(e)
     '''
