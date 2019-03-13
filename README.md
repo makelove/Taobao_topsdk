@@ -11,6 +11,7 @@
 | zk_final_price | 商品折扣价格 |
 | volume | 30天销量 |
 | provcity | 宝贝所在地  发货地 |
+| user_type | 卖家类型，0表示集市，1表示商城 |
 
 
 - 从淘宝下载的top，python是2.7的，满是bug
