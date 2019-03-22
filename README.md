@@ -61,4 +61,4 @@
 - 交流
     - 加我微信:sexy8dream
     - 扫码进群
-    <img src="http://images7n.dark.net.cn/cps-union-tb-jd-pdd5.jpg" width = "300" height = "473" alt="wechat_donate"  />
+    <img src="http://images7n.dark.net.cn/cps-union-tb-jd-pdd6.jpg" width = "300" height = "473" alt="wechat_donate"  />
