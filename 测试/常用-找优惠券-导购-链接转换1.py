@@ -7,6 +7,8 @@
 """
 导购-链接转换1.py:
 
+领券网址!!
+
 优惠券
 http://item.taobao.com/item.htm?spm=a219t.7900221/10.1998910419.d30ccd691.17d575a5OanKMC&id=561743770998
 """
@@ -19,7 +21,7 @@ from config import appkey, secret,pid
 req = TbkCouponConvertRequest()
 req.set_app_info(appinfo(appkey, secret))
 
-req.item_id = 561743770998
+req.item_id = 588009231660#526231351170
 req.adzone_id = pid
 req.platform = 2  # 链接形式：1：PC，2：无线，默认：１
 # req.me = "dsdfsdadgsa" #me参数不合法
@@ -57,4 +59,17 @@ except Exception as e:
     },
     "request_id": "bdxe9dpr4mq4"
 }    
+
+
+
+{'tbk_coupon_convert_response': 
+{'request_id': '160qpdxniso3o',
+  'result': {
+  'results': {
+  'campaign_type': 4,
+    'category_id': 16,
+    'coupon_click_url': 'https://uland.taobao.com/coupon/edetail?e=tpxBWdYyN7UGQASttHIRqe7Q9lqRIc6yStCkgxbJMujg4lUqifPvH9x2%2FlD7wOdrVxl2CHuUpj1uWNE2q%2FyjycWKxy1EFPIVsSKwS%2F%2FvFcFma4VUO7VGBlZrtTOLgXkcjDppvlX%2Bob%2F%2BTosbFmliBzQxd0%2F7s8Sy8%2B1UQ0U%2BCWuQzbQRBC%2Bhrg5I0cA7%2BNubPXF9dzoYDyA%3D&traceId=0bb3982d15535841148015810e&union_lens=lensId:0b0f79e2_0b63_169b8d44c8a_d0c3&xId=mJlE7rOlBXtwb8FDPDlVczPJLuG5NUZecwUiTcFsqdTYNmFsZ5e0IjNGs9OWuuXWfKSGBg0vDGdI22JW9HAHgc',
+    'item_id': 526231351170,
+    'item_url': 'https://s.click.taobao.com/t?e=m%3D2%26s%3D1OsBhN3TNUZw4vFB6t2Z2ueEDrYVVa64K7Vc7tFgwiHLWlSKdGSYDgcFMCLIwgbNxq3IhSJN6GSUZR70%2BlK9qVurOGJDe30Mi4iGkEp3vhY1bHXFwOOwIjqdUmXHECnnELxOuEw6aQXUTBxNyFgQ2uVMGbqY6G9PL95d7k%2B037XXtfkmARvbGIWLhXkoGmYybYZdV5DRMGazXVKh7aYSJMYOae24fhW0&union_lens=lensId:0b0f79e2_0b63_169b8d44c8a_d0c3&xId=mJlE7rOlBXtwb8FDPDlVczPJLuG5NUZecwUiTcFsqdTYNmFsZ5e0IjNGs9OWuuXWfKSGBg0vDGdI22JW9HAHgc',
+    'max_commission_rate': '30.00'}}}}
     '''

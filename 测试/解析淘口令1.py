@@ -6,6 +6,9 @@
 
 """
 解析淘口令1.py:
+
+常用
+
 """
 
 from top.api import WirelessShareTpwdQueryRequest
@@ -30,6 +33,7 @@ def test1():#复制框内整段文字，打开「手淘」即可「领取优惠�
     # msg='复制整段信息，打开👉手机天猫👈，即可查看此商品:【纤麦加肥加大码女装胖mm秋装宽松显瘦时尚长袖打底外穿T恤上衣】(未安装App点这里：http://yukhj.com/s/HKvLP?tm=2d6aaf )🔑喵口令🔑'#不能解析喵口令
     msg='【堆堆领秋衣大码女装韩版修身打底衫,这是一件非常显气质的莫代尔t恤，面料柔软舒适，吸湿透气】，https://m.tb.cn/h.3EK37eh 点击链接，再选择浏览器咑閞；或復·制这段描述￥anzcbFYCKxj￥后咑閞👉淘♂寳♀👈'
     # msg='￥mEWabqcRExj￥'#过期的淘口令
+    msg='￥AEpabxiRg0u￥'
 
     rt=parseTKL(msg)
     print(rt)

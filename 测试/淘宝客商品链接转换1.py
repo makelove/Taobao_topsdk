@@ -10,6 +10,8 @@ http://open.taobao.com/api.htm?docId=24516&docType=2
 有权限了
 
 现在可以
+
+
 """
 import traceback
 
@@ -24,7 +26,7 @@ req.set_app_info(appinfo(appkey, secret))
 
 req.fields = "num_iid,click_url"
 # https://detail.tmall.com/item.htm?id=572473824056
-req.num_iids = "565222550130"  # ,566807961895"# 商品ID串，用','分割，从taobao.tbk.item.get接口获取num_iid字段，最大40个
+req.num_iids = "588009231660"  # ,566807961895"# 商品ID串，用','分割，从taobao.tbk.item.get接口获取num_iid字段，最大40个
 
 # req.adzone_id=adzone_id#只能是【网站广告位】
 # req.adzone_id=1814028435#成功 #广告位ID，区分效果位置
@@ -38,7 +40,7 @@ try:
     resp = req.getResponse()
     import json
 
-    # print(resp)
+    print(resp)
 
     ds = json.dumps(resp)
     print(ds)  # 成功

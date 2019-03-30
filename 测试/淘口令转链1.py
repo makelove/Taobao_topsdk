@@ -25,7 +25,10 @@ req.set_app_info(appinfo(appkey, secret))
 # req.password_content = "【小巴士新款老人四轮电动代步车接送孩子长跑电瓶车成人观光车】https://m.tb.cn/h.3m5PFm3 点击链接，再选择浏览器咑閞；或復·制这段描述￥23pObk7tAKi￥后到👉淘♂寳♀👈"#非淘客宝贝
 msg='【复古网红行李箱女皮箱拉杆箱男潮旅行箱韩版密码箱子万向轮大学生】https://m.tb.cn/h.3rSpRWc?sm=1f3ea1 点击链接，再选择浏览器咑閞；或復·制这段描述￥09WvbKVt9HB￥后到👉淘♂寳♀👈'
 #该item_id对应宝贝已下架或非淘客宝贝
+
 # req.password_content = "【轻薄羽绒服女短款立领连帽时尚韩版修身秋冬大码女装外套反季促销】https://m.tb.cn/h.3n52vLA 点击链接，再选择浏览器咑閞；或復·制这段描述￥E1UAbOaNcwP￥后到👉淘♂寳♀👈"#有券
+
+msg='￥e6YcbCJPV7I￥'
 req.password_content = msg
 req.adzone_id = pid
 req.dx = "1"
