@@ -11,6 +11,7 @@ http://open.taobao.com/api.htm?docId=24516&docType=2
 
 现在可以
 
+商品ID-->推广链接
 
 """
 import traceback
