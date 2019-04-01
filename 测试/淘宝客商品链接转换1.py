@@ -22,7 +22,6 @@ from config import appkey, secret, pid
 
 req = TbkItemConvertRequest()
 req.set_app_info(appinfo(appkey, secret))
-# req.set_app_info(appinfo("24728514",'847aff038c548e44adeeb7fd634d6cc2'))#也没有权限
 
 req.fields = "num_iid,click_url"
 # https://detail.tmall.com/item.htm?id=572473824056

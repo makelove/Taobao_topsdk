@@ -1,0 +1,70 @@
+# -*- coding: utf-8 -*-
+# @Time    : 2018/4/29 16:06
+# @Author  : play4fun
+# @File    : 淘宝客商品查询1.py
+# @Software: PyCharm
+
+"""
+淘宝客商品查询1.py:
+搜索商品
+返回列表
+"""
+
+from top.api import TbkItemGetRequest
+from top import appinfo
+from pprint import pprint
+from config import appkey, secret
+
+req = TbkItemGetRequest()
+req.set_app_info(appinfo(appkey, secret))
+
+req.fields = "num_iid,title,pict_url,small_images,reserve_price,zk_final_price,user_type,provcity,item_url,seller_id,volume,nick"  # ,tk_rate"#没用
+
+# req.q="女装"
+req.q = "雪莱特紫外线杀菌灯医用家用除菌螨定时消毒灯25w遥控杀菌灯"
+# req.q="http://item.taobao.com/item.htm?id=569885087264"
+
+# req.cat="16,18"
+#
+# req.itemloc = "杭州"
+#
+req.sort = "tk_rate_des"  #
+#
+# req.is_tmall=False
+# req.is_overseas=False
+#
+# req.start_price=400
+# req.end_price=500
+#
+# req.start_tk_rate = 500  #
+# req.end_tk_rate = 700
+#
+# req.platform=1
+req.page_no = 1
+req.page_size = 10
+
+try:
+    resp = req.getResponse()
+    pprint(resp)
+    # import json
+    #
+    # ds = json.dumps(resp)
+    # print(ds)
+except Exception as e:
+    print(e)
+'''
+{'tbk_item_get_response': {'request_id': '7ju6x3yuq9mb',
+                           'results': {'n_tbk_item': [{'item_url': 'http://item.taobao.com/item.htm?id=561817433242',
+                                                       'nick': 'keaidexixi2017',
+                                                       'num_iid': 561817433242,
+                                                       'pict_url': 'https://img.alicdn.com/tfscom/i3/1612016151/TB2X7XtbNhmpuFjSZFyXXcLdFXa_!!1612016151.jpg',
+                                                       'provcity': '浙江 金华',
+                                                       'reserve_price': '147.00',
+                                                       'seller_id': 3519956009,
+                                                       'title': '松宝UV-009，007鱼缸杀菌灯 '
+                                                                'UVC-9W,7W杀菌灯灯管 '
+                                                                '消毒灯 除藻灯',
+                                                       'user_type': 0,
+                                                       'volume': 0,
+                                                       'zk_final_price': '147.00'}
+'''
