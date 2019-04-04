@@ -6,3 +6,11 @@
 - TODO
     - TODO 增加测试
     - TODO 增加-使用指南
+
+
+- config.py 自己新建一个,secret填自己的
+```python
+appkey = ""#1233455
+secret = ""#dj43jk3j4l34j3kl5j3kj
+pid = #1233455 #只能是网站推广位
+```

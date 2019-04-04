@@ -21,7 +21,7 @@ req.set_app_info(appinfo(appkey, secret))
 req.fields = "num_iid,title,pict_url,small_images,reserve_price,zk_final_price,user_type,provcity,item_url,seller_id,volume,nick"  # ,tk_rate"#没用
 
 # req.q="女装"
-req.q = "雪莱特紫外线杀菌灯医用家用除菌螨定时消毒灯25w遥控杀菌灯"
+req.q = "韩都衣舍2019韩版女装夏装网纱仙女印花气质蛋糕裙连衣裙EK9095囡"
 # req.q="http://item.taobao.com/item.htm?id=569885087264"
 
 # req.cat="16,18"
@@ -45,7 +45,11 @@ req.page_size = 10
 
 try:
     resp = req.getResponse()
-    pprint(resp)
+    # pprint(resp)
+    result_list = resp['tbk_item_get_response']['results']['n_tbk_item']
+    for it in result_list:
+        pprint(it)
+        print('-'*30)
     # import json
     #
     # ds = json.dumps(resp)

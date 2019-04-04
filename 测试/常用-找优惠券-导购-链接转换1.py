@@ -21,7 +21,7 @@ from config import appkey, secret,pid
 req = TbkCouponConvertRequest()
 req.set_app_info(appinfo(appkey, secret))
 
-req.item_id = 588009231660#526231351170
+req.item_id = 566569778934#526231351170
 req.adzone_id = pid
 req.platform = 2  # 链接形式：1：PC，2：无线，默认：１
 # req.me = "dsdfsdadgsa" #me参数不合法

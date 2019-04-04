@@ -8,17 +8,19 @@
 淘宝客商品查询info.py:
 http://open.taobao.com/api.htm?docId=24518&docType=2
 用处不大,返回的信息太少
+
+基本信息
 """
 
 from top.api import TbkItemInfoGetRequest
 from top import appinfo
-
+import json
 from config import appkey, secret
 
 req = TbkItemInfoGetRequest()
 req.set_app_info(appinfo(appkey, secret))
 
-req.num_iids = "565222550130"
+req.num_iids = "573210110511"
 req.platform = 2  # 链接形式：1：PC，2：无线，默认：１
 
 try:
@@ -26,8 +28,6 @@ try:
 
     it = resp['tbk_item_info_get_response']['results']['n_tbk_item'][0]
     print(it)
-
-    import json
 
     # ds = json.dumps(resp)
     # print(ds)
