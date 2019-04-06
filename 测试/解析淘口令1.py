@@ -8,6 +8,8 @@
 解析淘口令1.py:
 
 常用
+从淘口令中提取出商品ID
+url
 
 """
 
@@ -15,9 +17,6 @@ from top.api import WirelessShareTpwdQueryRequest
 from top import appinfo
 from config import appkey, secret
 
-# from config import my_appkey,my_secret#不行
-# appkey = my_appkey
-# secret = my_secret
 
 def parseTKL(msg):
     req=WirelessShareTpwdQueryRequest()
@@ -34,6 +33,7 @@ def test1():#复制框内整段文字，打开「手淘」即可「领取优惠�
     msg='【堆堆领秋衣大码女装韩版修身打底衫,这是一件非常显气质的莫代尔t恤，面料柔软舒适，吸湿透气】，https://m.tb.cn/h.3EK37eh 点击链接，再选择浏览器咑閞；或復·制这段描述￥anzcbFYCKxj￥后咑閞👉淘♂寳♀👈'
     # msg='￥mEWabqcRExj￥'#过期的淘口令
     msg='￥AEpabxiRg0u￥'
+    msg='描述￥i9CMbz0hLPo￥后'
 
     rt=parseTKL(msg)
     print(rt)

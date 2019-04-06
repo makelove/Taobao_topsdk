@@ -6,6 +6,7 @@
 
 """
 淘口令转链1.py:
+把别人的淘口令转成自己的淘口令
 
 很有用，可以用来获取商品ID
 """
@@ -28,7 +29,7 @@ msg='【复古网红行李箱女皮箱拉杆箱男潮旅行箱韩版密码箱子
 
 # req.password_content = "【轻薄羽绒服女短款立领连帽时尚韩版修身秋冬大码女装外套反季促销】https://m.tb.cn/h.3n52vLA 点击链接，再选择浏览器咑閞；或復·制这段描述￥E1UAbOaNcwP￥后到👉淘♂寳♀👈"#有券
 
-msg='￥9ez7bBTrT7W￥'
+msg='￥i9CMbz0hLPo￥'
 req.password_content = msg
 req.adzone_id = pid
 req.dx = "1"

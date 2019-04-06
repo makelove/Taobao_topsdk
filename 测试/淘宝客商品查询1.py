@@ -21,14 +21,15 @@ req.set_app_info(appinfo(appkey, secret))
 req.fields = "num_iid,title,pict_url,small_images,reserve_price,zk_final_price,user_type,provcity,item_url,seller_id,volume,nick"  # ,tk_rate"#没用
 
 # req.q="女装"
-req.q = "韩都衣舍2019韩版女装夏装网纱仙女印花气质蛋糕裙连衣裙EK9095囡"
+# req.q = "韩都衣舍2019韩版女装夏装网纱仙女印花气质蛋糕裙连衣裙EK9095囡"
+req.q = "舒客舒克儿童电动牙刷B32男女宝宝小孩防水声波自动2-3-6-12岁"
 # req.q="http://item.taobao.com/item.htm?id=569885087264"
 
 # req.cat="16,18"
 #
 # req.itemloc = "杭州"
 #
-req.sort = "tk_rate_des"  #
+req.sort ='tk_total_sales'# "tk_rate_des"  #
 #
 # req.is_tmall=False
 # req.is_overseas=False

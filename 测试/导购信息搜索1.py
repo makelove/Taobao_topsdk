@@ -12,11 +12,6 @@
 优惠券
 """
 from pprint import pprint
-import top.api
-
-# req = top.api.TbkDgMaterialOptionalRequest(url, port)
-# req.set_app_info(top.appinfo(appkey, secret))
-
 import traceback, json
 
 from top.api import TbkDgMaterialOptionalRequest
@@ -43,8 +38,9 @@ req2.platform = 1
 req2.sort = 'tk_total_commi'  # "tk_rate_des"#
 # req.itemloc = "杭州"
 # req2.cat = "16,18"
-req2.q = "亮片刺绣T恤 夏装韩版宽松大码女装中长款下衣失踪休闲上衣服潮"#https://detail.tmall.com/item.htm?id=588009231660&spm=a219t.7900221/10.1998910419.d30ccd691.17d575a5CVPiqZ
-#"宝宝吃饭罩衣围兜春夏薄款防水耐脏男女孩儿童画画围裙饭衣反穿衣"
+# req2.q = "亮片刺绣T恤 夏装韩版宽松大码女装中长款下衣失踪休闲上衣服潮"  # https://detail.tmall.com/item.htm?id=588009231660
+req2.q = "春秋女装新款港风宽松中长款长袖上衣外套bf百搭休闲风衣学生T恤"  # https://detail.tmall.com/item.htm?id=575317425603
+# "宝宝吃饭罩衣围兜春夏薄款防水耐脏男女孩儿童画画围裙饭衣反穿衣"
 # req2.q = "紫外线杀菌灯"
 # req2.material_id = 2836#默认
 
@@ -69,9 +65,9 @@ try:
     # print('\n')
     # ds = json.dumps(resp)
     # print(ds)  # 成功
-    print('-'*40)
+    print('-' * 40)
     result_list = resp['tbk_dg_material_optional_response']['result_list']['map_data']
-    print('长度',len(result_list))
+    print('长度', len(result_list))
     for item in resp['tbk_dg_material_optional_response']['result_list']['map_data']:
         pprint(item)
         if item['coupon_remain_count'] > 0:
