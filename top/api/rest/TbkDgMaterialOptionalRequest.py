@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 '''
-Created by auto_sdk on 2018.04.02
 参考：
 https://doc.alidayu.com/docs/api.htm?apiId=35896
+通用物料搜索API(导购)
 '''
 from top.api.base import RestApi
 
