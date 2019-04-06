@@ -3,6 +3,12 @@
 
 - 文档
     - 官方-淘宝客API https://open.taobao.com/api.htm?docId=24515&docType=2
+    - [阿里开放平台－控制台](http://console.open.taobao.com/app/appList.htm#/app/manager)
+
+- 最新消息
+    - 2018-05-28
+        - [史上最详细淘宝联盟API使用教程](https://tbk.bbs.taobao.com/detail.html?postId=8576944)
+        - [官方推荐商品库大全（提供最新API获取方式）](https://tbk.bbs.taobao.com/detail.html?appId=45301&postId=8576096)
 
 | key | 含义 |
 | ------ | ------ |
@@ -11,7 +17,7 @@
 | zk_final_price | 商品折扣价格 |
 | volume | 30天销量 |
 | provcity | 宝贝所在地  发货地 |
-| user_type | 卖家类型，0表示集市，1表示商城 |
+| user_type | 卖家类型，0表示淘宝集市，1表示天猫商城 |
 
 
 - 从淘宝下载的top，python是2.7的，满是bug
