@@ -3,6 +3,8 @@
 参考：
 https://doc.alidayu.com/docs/api.htm?apiId=35896
 通用物料搜索API(导购)
+
+在请求API参数中material_id设置为6707，其他参数保持不变，即可返回新搜索结果。
 '''
 from top.api.base import RestApi
 

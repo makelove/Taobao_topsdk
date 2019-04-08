@@ -6,6 +6,10 @@
     - [阿里开放平台－控制台](http://console.open.taobao.com/app/appList.htm#/app/manager)
 
 - 最新消息
+    - 2019-02-20
+        - [推广位创建总数不超过200个](https://tbk.bbs.taobao.com/detail.html?spm=a219t.7900221/1.1998910419.39.6edb75a58McTjx&appId=45301&postId=9102740)
+    - 2019-01-16
+        - [《淘宝客私域用户管理》-新手指南](https://mo.m.taobao.com/pdum)
     - 2018-05-28
         - [史上最详细淘宝联盟API使用教程](https://tbk.bbs.taobao.com/detail.html?postId=8576944)
         - [官方推荐商品库大全（提供最新API获取方式）](https://tbk.bbs.taobao.com/detail.html?appId=45301&postId=8576096)
