@@ -3,6 +3,7 @@
 
 http://open.taobao.com/docs/api.htm?apiId=31127
 '''
+
 from top.api.base import RestApi
 
 

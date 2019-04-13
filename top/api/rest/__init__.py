@@ -46,6 +46,8 @@ from top.api.rest.TbkRelationRefundRequest import TbkRelationRefundRequest
 from top.api.rest.TbkDgPunishOrderGetRequest import TbkDgPunishOrderGetRequest
 
 from top.api.rest.TbkCouponConvertRequest import TbkCouponConvertRequest
+#邀请码
+from top.api.rest.TbkScInvitecodeGetRequest import TbkScInvitecodeGetRequest
 # 2018.11.1
 from top.api.rest.TbkShopConvertRequest import TbkShopConvertRequest
 from top.api.rest.TbkScOptimusMaterialRequest import TbkScOptimusMaterialRequest
