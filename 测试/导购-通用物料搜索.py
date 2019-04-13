@@ -5,7 +5,7 @@
 # @Software: PyCharm
 
 """
-导购信息搜索1.py:
+导购信息搜索1.py:通用物料搜索
 参考：https://doc.alidayu.com/docs/api.htm?apiId=35896
 
 佣金
@@ -40,6 +40,7 @@ req2.sort = 'tk_total_commi'  # "tk_rate_des"#
 # req2.cat = "16,18"
 # req2.q = "亮片刺绣T恤 夏装韩版宽松大码女装中长款下衣失踪休闲上衣服潮"  # https://detail.tmall.com/item.htm?id=588009231660
 req2.q = "春秋女装新款港风宽松中长款长袖上衣外套bf百搭休闲风衣学生T恤"  # https://detail.tmall.com/item.htm?id=575317425603
+req2.q = "10000毫安充电宝女小巧迷你可爱苹果安卓通用大容量移动电源快充"
 # "宝宝吃饭罩衣围兜春夏薄款防水耐脏男女孩儿童画画围裙饭衣反穿衣"
 # req2.q = "紫外线杀菌灯"
 # req2.material_id = 2836#默认
@@ -70,11 +71,11 @@ try:
     print('长度', len(result_list))
     for item in resp['tbk_dg_material_optional_response']['result_list']['map_data']:
         pprint(item)
-        if item['coupon_remain_count'] > 0:
-            break
-        else:
-            print('No')
-        print('-' * 20)
+        # if item['coupon_remain_count'] > 0:
+        #     break
+        # else:
+        #     print('No')
+        print('-' * 40)
 except Exception as e:
     print(e)
     '''

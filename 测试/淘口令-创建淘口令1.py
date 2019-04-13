@@ -25,7 +25,6 @@ req.text = '雾妆上衣 清水溪原创女装改良汉服刺绣交领上衣复�
 # req.url='https://item.taobao.com/item.htm?id=567873872517'
 req.url = 'https://s.click.taobao.com/t?e=m%3D2%26s%3Dea3gZ6NOUrscQipKwQzePOeEDrYVVa64LKpWJ%2Bin0XLjf2vlNIV67ozKWyu6bnIwRku8%2Bpj6eJalldgrEKAMDXnQOo8damCBj2X6i1GYASI3b1dKfLeFUEg0aHp6CeiCqnVeK%2FmooCGS4mRUfswfBlsIB3jWKyiYxgxdTc00KD8%3D&pvid=10_114.244.180.148_65971_1546169008143'
 req.logo = 'https://img.alicdn.com/bao/uploaded/i4/113740699/TB2aYQ8b41YBuNjy1zcXXbNcXXa_!!113740699.jpg_220x220_.webp'
-# req.tpwd_param
 
 try:
     resp = req.getResponse()

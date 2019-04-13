@@ -22,7 +22,8 @@ req.fields = "num_iid,title,pict_url,small_images,reserve_price,zk_final_price,u
 
 # req.q="女装"
 # req.q = "韩都衣舍2019韩版女装夏装网纱仙女印花气质蛋糕裙连衣裙EK9095囡"
-req.q = "舒客舒克儿童电动牙刷B32男女宝宝小孩防水声波自动2-3-6-12岁"
+# req.q = "舒客舒克儿童电动牙刷B32男女宝宝小孩防水声波自动2-3-6-12岁"
+req.q = "10000毫安充电宝女小巧迷你可爱苹果安卓通用大容量移动电源快充"
 # req.q="http://item.taobao.com/item.htm?id=569885087264"
 
 # req.cat="16,18"

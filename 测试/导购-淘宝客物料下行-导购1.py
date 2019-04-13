@@ -7,7 +7,7 @@
 """
 淘宝客物料下行-导购1.py:
 
-
+通用物料搜索API【导购】
 
 """
 from pprint import pprint
