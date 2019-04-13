@@ -24,8 +24,7 @@ req.platform = 1
 req.page_size = 20
 req.page_no = 1
 
-
-req.unid = "3456"
+req.unid = "3456"  # TODO
 req.event_id = 123456  # 招商活动id
 
 req.fields = "num_iid,title,pict_url,small_images,reserve_price,zk_final_price,user_type,provcity,item_url,seller_id,volume,nick,shop_title,zk_final_price_wap,event_start_time,event_end_time,tk_rate,type,status"
