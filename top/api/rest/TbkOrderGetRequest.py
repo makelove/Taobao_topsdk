@@ -12,7 +12,7 @@ TbkOrderGetRequest.py:
 https://github.com/xiaobozi/tdd/blob/c10a6a423ba256c53934ddf698a4f8ceecbed99e/src/Top/Request/TbkOrderGetRequest.php
 
 文档
-http://open.taobao.com/api.htm?docId=24527&docType=2
+https://open.taobao.com/api.htm?docId=24527&docType=2
 
 """
 

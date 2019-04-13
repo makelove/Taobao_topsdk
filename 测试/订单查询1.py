@@ -21,7 +21,7 @@ req = TbkOrderGetRequest()
 req.set_app_info(appinfo(appkey, secret))
 
 req.fields = "tb_trade_parent_id,tb_trade_id,num_iid,item_title,item_num,price,pay_price,seller_nick,seller_shop_title,commission,commission_rate,unid,create_time,earning_time,tk3rd_pub_id,tk3rd_site_id,tk3rd_adzone_id,relation_id"
-req.start_time = "2018-08-23 12:18:22"
+req.start_time = "2019-03-23 00:00:00"
 req.span = 600
 req.page_no = 1
 req.page_size = 20

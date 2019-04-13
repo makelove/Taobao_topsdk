@@ -40,7 +40,11 @@ from top.api.rest.FilesGetRequest import FilesGetRequest
 from top.api.rest.JuItemsSearchRequest import JuItemsSearchRequest
 from top.api.rest.TbkItemConvertRequest import TbkItemConvertRequest
 # 新添加的
+## 订单相关
 from top.api.rest.TbkOrderGetRequest import TbkOrderGetRequest
+from top.api.rest.TbkRelationRefundRequest import TbkRelationRefundRequest
+from top.api.rest.TbkDgPunishOrderGetRequest import TbkDgPunishOrderGetRequest
+
 from top.api.rest.TbkCouponConvertRequest import TbkCouponConvertRequest
 # 2018.11.1
 from top.api.rest.TbkShopConvertRequest import TbkShopConvertRequest
