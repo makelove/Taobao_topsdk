@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
-Created on 2012-7-3
 
-@author: lihao
 '''
 import top.api
 
