@@ -29,16 +29,7 @@
 - Enjoy！
     - 有一些api没有加入，因为下载sdk时，淘宝是根据你的权限自动生成的。
     - 有时候新增加了一些api，也不知道
-- 安装
-    - python setup.py clean 
-    - python setup.py install 
-    - 更方便
-        - https://pypi.org/project/topsdk/
-        - pip install topsdk
-        - pip install topsdk --upgrade
-        - 卸载 
-            - pip uninstall topsdk
-    
+
 - 更新update
     - 2018.11.1
         - 在【阿里开放平台－控制台】下载Java sdk 发现更新了。需要【点击生成】，无语！
@@ -48,7 +39,18 @@
             - 反向解析：淘口令-->s.click.taobao.com链接
             - 把别人的淘口令转成自己的淘口令
             -  跟 TbkTpwdCreateRequest 相反
-            
+
+- 安装
+    - python setup.py clean
+    - python setup.py install
+    - 更方便
+        - https://pypi.org/project/topsdk/
+        - pip install topsdk
+        - 更新
+            - pip install topsdk --upgrade
+        - 卸载
+            - pip uninstall topsdk
+
 - 上传到pypi
     - rm -rf build dist
     - 打包
@@ -73,6 +75,9 @@
         - 缺点:
             - 不支持HTTPS,会被劫持流量
             - 可能会偷单
+    - App
+    - 公众号-订阅号
+    - 微信小程序
 
 - 交流
     - 加我微信:sexy8dream
