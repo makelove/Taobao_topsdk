@@ -6,6 +6,8 @@
     - [阿里开放平台－控制台](http://console.open.taobao.com/app/appList.htm#/app/manager)
 
 - 最新消息
+    - 2019-04-01
+        - [淘宝客新等级体系正式上线&FAQ专场](https://tbk.bbs.taobao.com/detail.html?spm=a219t.7900221/1.1998910419.de4e1af6f0.6edb75a58McTjx&postId=9119458)
     - 2019-02-20
         - [推广位创建总数不超过200个](https://tbk.bbs.taobao.com/detail.html?spm=a219t.7900221/1.1998910419.39.6edb75a58McTjx&appId=45301&postId=9102740)
     - 2019-01-16
@@ -80,6 +82,9 @@
     - 微信小程序
 
 - 交流
+    - 公众号:真AI人工智能
+    <img src="http://images7n.dark.net.cn/true_ai_wxpa.jpg" width = "300" height = "300" alt="wechat_public_account"  />
+
     - 加我微信:sexy8dream
     <img src="http://images7n.dark.net.cn/sexy8dream.jpg" width = "300" height = "300" alt="wechat_account"  />
 
