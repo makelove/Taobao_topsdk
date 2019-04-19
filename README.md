@@ -82,9 +82,6 @@
     - 微信小程序
 
 - 交流
-    - 公众号:真AI人工智能
-    <img src="http://images7n.dark.net.cn/true_ai_wxpa.jpg" width = "300" height = "300" alt="wechat_public_account"  />
-
     - 加我微信:sexy8dream
     <img src="http://images7n.dark.net.cn/sexy8dream.jpg" width = "300" height = "300" alt="wechat_account"  />
 
