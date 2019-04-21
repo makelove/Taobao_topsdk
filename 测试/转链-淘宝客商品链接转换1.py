@@ -7,12 +7,9 @@
 """
 淘宝客商品链接转换1.py:
 http://open.taobao.com/api.htm?docId=24516&docType=2
-有权限了
-
-现在可以
-
 商品ID-->推广链接
 
+一般账号没有这个权限,需要申请
 """
 import traceback
 

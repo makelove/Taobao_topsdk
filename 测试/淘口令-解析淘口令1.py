@@ -34,6 +34,8 @@ def test1():#复制框内整段文字，打开「手淘」即可「领取优惠�
     # msg='￥mEWabqcRExj￥'#过期的淘口令
     msg='￥AEpabxiRg0u￥'
     msg='描述￥i9CMbz0hLPo￥后'
+    msg='描述￥M7xkYZm6z6p￥后'
+    msg='复制整段信息，打开👉手机天猫👈，即可查看此商品:【四川青见柑橘新鲜包邮斤当季水果应季橘子时令丑拍2件带箱10桔子】(未安装App点这里：http://yukhj.com/s/hiwvI?tm=4a708d )🔑喵口令🔑' #不支持猫口令
 
     rt=parseTKL(msg)
     print(rt)

@@ -6,10 +6,19 @@
 
 """
 导购信息搜索1.py:通用物料搜索
-参考：https://doc.alidayu.com/docs/api.htm?apiId=35896
+参考：
+https://doc.alidayu.com/docs/api.htm?apiId=35896
 
 佣金
 优惠券
+
+'commission_rate': '1550',
+商品信息-佣金比率。1550表示15.5%
+commission_rate = commission_rate / 10000
+-
+'commission_type': 'MKT'
+商品信息-佣金类型。MKT表示营销计划，SP表示定向计划，COMMON表示通用计划
+MKT 佣金不高?!!
 """
 from pprint import pprint
 import traceback, json
@@ -24,7 +33,7 @@ req2.set_app_info(appinfo(appkey, secret))
 
 # req2.start_dsr = 10 #店铺dsr评分
 
-req2.page_size = 4
+req2.page_size = 10
 req2.page_no = 1
 req2.platform = 1
 # req.end_tk_rate = 1234 #TODO 设置一个区间
@@ -39,8 +48,9 @@ req2.sort = 'tk_total_commi'  # "tk_rate_des"#
 # req.itemloc = "杭州"
 # req2.cat = "16,18"
 # req2.q = "亮片刺绣T恤 夏装韩版宽松大码女装中长款下衣失踪休闲上衣服潮"  # https://detail.tmall.com/item.htm?id=588009231660
-req2.q = "春秋女装新款港风宽松中长款长袖上衣外套bf百搭休闲风衣学生T恤"  # https://detail.tmall.com/item.htm?id=575317425603
-req2.q = "10000毫安充电宝女小巧迷你可爱苹果安卓通用大容量移动电源快充"
+# req2.q = "春秋女装新款港风宽松中长款长袖上衣外套bf百搭休闲风衣学生T恤"  # https://detail.tmall.com/item.htm?id=575317425603
+# req2.q = "10000毫安充电宝女小巧迷你可爱苹果安卓通用大容量移动电源快充"
+req2.q = "植护本色抽纸面巾纸巾餐巾纸抽卫生纸家用实惠家庭装整箱批发10包"
 # "宝宝吃饭罩衣围兜春夏薄款防水耐脏男女孩儿童画画围裙饭衣反穿衣"
 # req2.q = "紫外线杀菌灯"
 # req2.material_id = 2836#默认
@@ -69,7 +79,7 @@ try:
     print('-' * 40)
     result_list = resp['tbk_dg_material_optional_response']['result_list']['map_data']
     print('长度', len(result_list))
-    for item in resp['tbk_dg_material_optional_response']['result_list']['map_data']:
+    for item in result_list:
         pprint(item)
         # if item['coupon_remain_count'] > 0:
         #     break
@@ -124,5 +134,48 @@ except Exception as e:
  'volume': 0,
  'white_image': '',
  'x_id': 'ThRL7gmx1DkJFNB6BJ7vK5v1cn6LwgKNXWl2K9HhV4HHqmWbCOl1XT2ffFDe63EF941nL46VZGOylzei4zz44',
- 'zk_final_price': '120.27'}    
+ 'zk_final_price': '120.27'}  
+ 
+ 
+ 
+ {'category_id': 50012478,
+ 'category_name': '抽纸',
+ 'commission_rate': '45',
+ 'commission_type': 'ZX',
+ 'coupon_id': '',
+ 'coupon_info': '',
+ 'coupon_remain_count': 0,
+ 'coupon_total_count': 0,
+ 'include_dxjh': 'false',
+ 'include_mkt': 'false',
+ 'info_dxjh': '{}',
+ 'item_description': '',
+ 'item_id': 588287384841,
+ 'item_url': 'https://item.taobao.com/item.htm?id=588287384841',
+ 'level_one_category_id': 50025705,
+ 'level_one_category_name': '洗护清洁剂/卫生巾/纸/香薰',
+ 'nick': 'm841995082',
+ 'num_iid': 588287384841,
+ 'pict_url': 'https://img.alicdn.com/bao/uploaded/i2/2734800840/O1CN01ZlpLVR1I4lCOQ4G1J_!!2734800840.jpg',
+ 'provcity': '广东 广州',
+ 'reserve_price': '16.8',
+ 'seller_id': 2734800840,
+ 'shop_dsr': 47877,
+ 'shop_title': '匠心Miss you生活馆',
+ 'short_title': '植护本色面巾纸巾抽家用实惠卫生纸',
+ 'small_images': {'string': ['https://img.alicdn.com/i3/2734800840/O1CN01SKblRC1I4lCNXhhjP_!!2734800840.jpg',
+                             'https://img.alicdn.com/i4/2734800840/O1CN018SeA5C1I4lCNQLJsB_!!2734800840.jpg',
+                             'https://img.alicdn.com/i3/2734800840/O1CN01xmIrbG1I4lCNQMG4d_!!2734800840.jpg',
+                             'https://img.alicdn.com/i2/2734800840/O1CN0185ZmQl1I4lCNX0Ja6_!!2734800840.jpg']},
+ 'title': '植护本色抽纸面巾纸巾餐巾纸抽卫生纸家用实惠家庭装整箱批发10包',
+ 'tk_total_commi': '1.02',
+ 'tk_total_sales': '5',
+ 'url': '//s.click.taobao.com/t?e=m%3D2%26s%3DUI22P%2FB2AhIcQipKwQzePOeEDrYVVa64lwnaF1WLQxlyINtkUhsv0DwRP6v6RZjKklPFOsnCtMVHatIorvhTnDBUxNsqx3L7njzwEGq%2FDRvSkx9ROi4DlKXezsSnMpj3SD99OVE0eUhwGilLG1DZrfqmGxzdfRI0%2FVJqtNeEg5OyAilzVYVmIivXtY%2B2Lf8rch%2F%2BlwyD3uE74r98KLXqNsYl7w3%2FA2kb&scm=null&pvid=100_11.182.100.47_108984_9981555725553411118&app_pvid=59590_11.21.18.24_11158_1555725553404&ptl=floorId:2836;pvid:100_11.182.100.47_108984_9981555725553411118;app_pvid:59590_11.21.18.24_11158_1555725553404&xId=U2xxkk6FPNMYdlBbMwPA7bFWzj3uFzZjt9kdTQGpj2c8xuciWbggFYzkq6H9N1j74YJLYNoTanhnu6ayz7R6Y1&union_lens=lensId:0b151218_0c17_16a38780f2f_c1be',
+ 'user_type': 0,
+ 'volume': 8,
+ 'white_image': '',
+ 'x_id': 'U2xxkk6FPNMYdlBbMwPA7bFWzj3uFzZjt9kdTQGpj2c8xuciWbggFYzkq6H9N1j74YJLYNoTanhnu6ayz7R6Y1',
+ 'zk_final_price': '13.8'}
+ 
+   
     '''
