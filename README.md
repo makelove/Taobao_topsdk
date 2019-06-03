@@ -5,6 +5,9 @@
     - 官方-淘宝客API https://open.taobao.com/api.htm?docId=24515&docType=2
     - [阿里开放平台－控制台](http://console.open.taobao.com/app/appList.htm#/app/manager)
 
+- 视频教程-列表
+    - [B站搜索:真AI人工智能 淘宝联盟](https://search.bilibili.com/video?keyword=%E7%9C%9FAI%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%20%E6%B7%98%E5%AE%9D%E8%81%94%E7%9B%9F)
+
 - 最新消息
     - 2019-04-01
         - [淘宝客新等级体系正式上线&FAQ专场](https://tbk.bbs.taobao.com/detail.html?spm=a219t.7900221/1.1998910419.de4e1af6f0.6edb75a58McTjx&postId=9119458)
