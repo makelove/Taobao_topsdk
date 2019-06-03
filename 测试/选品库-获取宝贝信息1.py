@@ -30,3 +30,6 @@ try:
     pprint(resp)
 except Exception as e:
     print(e)
+    '''
+    errorcode=15 message=Remote service error subcode=isv.invalid-parameter:favorites_id submsg=该favorite_id下没有宝贝 application_host=11.131.81.98 service_host=top011131081098.na62
+    '''

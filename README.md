@@ -15,6 +15,8 @@
     - 2018-05-28
         - [史上最详细淘宝联盟API使用教程](https://tbk.bbs.taobao.com/detail.html?postId=8576944)
         - [官方推荐商品库大全（提供最新API获取方式）](https://tbk.bbs.taobao.com/detail.html?appId=45301&postId=8576096)
+    - 2017-10-16
+        - [淘宝联盟选品组&定向招商API开发指南](https://tbk.bbs.taobao.com/detail.html?spm=a219t.7900221/10.0.0.17d575a5L64RTj&appId=45301&postId=8113156)
 
 | key | 含义 |
 | ------ | ------ |
