@@ -51,15 +51,16 @@
             -  跟 TbkTpwdCreateRequest 相反
 
 - 安装
-    - python setup.py clean
-    - python setup.py install
-    - 更方便
+    - 请用pip安装
         - https://pypi.org/project/topsdk/
-        - pip install topsdk
+        - 用这个: pip install topsdk
         - 更新
             - pip install topsdk --upgrade
         - 卸载
             - pip uninstall topsdk
+    - 如果没有pip和配置虚拟合计virtualenv
+        - python setup.py clean
+        - python setup.py install
 
 - 上传到pypi
     - rm -rf build dist
