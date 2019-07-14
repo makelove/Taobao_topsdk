@@ -62,20 +62,6 @@
         - python setup.py clean
         - python setup.py install
 
-- 上传到pypi
-    - rm -rf build dist
-    - 打包
-        - python3 setup.py sdist bdist_wheel
-    - ls dist/
-    - 上传
-        - twine upload dist/*
-    - 不能安装问题
-        - UnicodeEncodeError: 'ascii' codec can't encode characters in position 38-42: ordinal not in range(128)
-        - 在py文件头添加
-        ```python
-        # -*- coding: utf-8 -*-
-        ```
-        - 1
 
 - 应用
     - 利用【大淘客】建站
