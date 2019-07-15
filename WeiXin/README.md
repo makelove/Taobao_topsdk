@@ -17,7 +17,7 @@
 
 	- macOS微信
 		- 本人没有，待开发
-		- 微信助手 GitHub
+		- 参考：微信小助手 GitHub https://github.com/iostyle/WeChatPlugin
 
 - 微信技巧
 	- 客户咨询，怎样回复淘口令？
