@@ -61,6 +61,9 @@
     - 如果没有pip和配置虚拟合计virtualenv
         - python setup.py clean
         - python setup.py install
+    - 成功安装后，验证：
+    - ![after_installed.png](after_installed.png)
+    - .py3是我的virtualenv虚拟环境
 
 
 - 应用
