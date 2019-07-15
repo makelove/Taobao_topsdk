@@ -11,13 +11,16 @@
 	- web微信
 		- 本人有
 		- Docker
-		- wechaty(js编程)
+		- wechaty(js编程) https://github.com/Chatie/wechaty
 		- 限制:
 			- 新注册的微信号不能使用
 
 	- macOS微信
 		- 本人没有，待开发
-		- 参考：微信小助手 GitHub https://github.com/iostyle/WeChatPlugin
+		- 参考：微信小助手 GitHub 
+			- https://github.com/iostyle/WeChatPlugin
+			- https://github.com/Sunnyyoung/WeChatTweak-macOS
+			- 1
 
 - 微信技巧
 	- 客户咨询，怎样回复淘口令？
