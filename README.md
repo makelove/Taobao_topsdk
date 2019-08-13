@@ -67,7 +67,8 @@
 
 
 - 应用
-    - 利用【大淘客】建站
+    - 利用【大淘客CMS】建站 http://www.dataoke.com/cms-introduce.html
+        - 可以用它新建一个网站，获取API权限
         - 演示DEMO http://youhui.dark.net.cn/
         - 帮助文档 http://help.dataoke.com/hc/kb/category/1012170/
         - [大淘客CMS系统如何使用](http://help.dataoke.com/hc/kb/article/1128855/)
