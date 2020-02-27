@@ -6,6 +6,8 @@
 
 """
 选品库-获取宝贝信息1.py:
+
+该favorite_id下没有宝贝
 """
 
 from top.api import TbkUatmFavoritesItemGetRequest

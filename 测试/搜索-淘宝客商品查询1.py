@@ -8,6 +8,8 @@
 淘宝客商品查询1.py:
 搜索商品
 返回列表
+
+errorcode=22 message=Invalid method subcode=None submsg=不合法ApiName，ApiName = taobao.tbk.item.get application_host=11.1.185.92 service_host=top011001185092.center.na62
 """
 
 from top.api import TbkItemGetRequest

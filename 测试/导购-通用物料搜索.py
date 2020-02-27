@@ -5,6 +5,7 @@
 # @Software: PyCharm
 
 """
+有权限
 导购信息搜索1.py:通用物料搜索
 参考：
 https://doc.alidayu.com/docs/api.htm?apiId=35896
@@ -48,9 +49,9 @@ req2.sort = 'tk_total_commi'  # "tk_rate_des"#
 # req.itemloc = "杭州"
 # req2.cat = "16,18"
 # req2.q = "亮片刺绣T恤 夏装韩版宽松大码女装中长款下衣失踪休闲上衣服潮"  # https://detail.tmall.com/item.htm?id=588009231660
-# req2.q = "春秋女装新款港风宽松中长款长袖上衣外套bf百搭休闲风衣学生T恤"  # https://detail.tmall.com/item.htm?id=575317425603
+req2.q = "2019春夏新款复古民族风"  # https://detail.tmall.com/item.htm?id=575317425603
 # req2.q = "10000毫安充电宝女小巧迷你可爱苹果安卓通用大容量移动电源快充"
-req2.q = "植护本色抽纸面巾纸巾餐巾纸抽卫生纸家用实惠家庭装整箱批发10包"
+# req2.q = "植护本色抽纸面巾纸巾餐巾纸抽卫生纸家用实惠家庭装整箱批发10包"
 # "宝宝吃饭罩衣围兜春夏薄款防水耐脏男女孩儿童画画围裙饭衣反穿衣"
 # req2.q = "紫外线杀菌灯"
 # req2.material_id = 2836#默认
@@ -72,7 +73,7 @@ req2.adzone_id = pid
 # req.device_type = "IMEI"
 try:
     resp = req2.getResponse()
-    pprint(resp)
+    # pprint(resp)
     # print('\n')
     # ds = json.dumps(resp)
     # print(ds)  # 成功
@@ -86,6 +87,8 @@ try:
         # else:
         #     print('No')
         print('-' * 40)
+    titles = [item['title'] for item in result_list]
+    print(titles)
 except Exception as e:
     print(e)
     '''

@@ -6,6 +6,7 @@
 
 """
 处罚订单查询-导购1.py:
+没有权限
 """
 import traceback
 from datetime import datetime
@@ -28,7 +29,7 @@ req.special_id = 2
 req.violation_type = 2
 req.punish_status = 0
 
-req.start_time = "2019-03-23 00:00:00"
+req.start_time = "2019-10-23 00:00:00"
 req.page_no = 1
 req.page_size = 20
 

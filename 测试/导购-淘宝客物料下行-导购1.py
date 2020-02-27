@@ -5,6 +5,7 @@
 # @Software: PyCharm
 
 """
+没有权限
 淘宝客物料下行-导购1.py:
 
 通用物料搜索API【导购】
@@ -24,7 +25,7 @@ req.set_app_info(appinfo(appkey, secret))
 req.page_no = 1
 req.page_size = 20
 req.adzone_id = pid
-req.item_id = 575317425603  # http://item.taobao.com/item.htm?id=575317425603
+req.item_id = 605650440548  # http://item.taobao.com/item.htm?id=575317425603
 
 req.material_id = 3767#TODO 女装 3767
 

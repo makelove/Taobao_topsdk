@@ -30,4 +30,6 @@ except Exception as e:
     '''
     errorcode=11 message=Insufficient isv permissions subcode=isv.permission-api-package-limit submsg=scope ids is 11655 381 application_host=11.1.181.93 service_host=top011001181093.center.na62
 
+errorcode=27 message=Invalid session subcode=invalid-sessionkey submsg=非法或过期的SessionKey参数，请使用有效的SessionKey参数 application_host=11.11.7.182 service_host=top011011007182.na61
+
     '''

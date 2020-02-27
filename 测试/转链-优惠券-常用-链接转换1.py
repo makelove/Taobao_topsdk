@@ -5,12 +5,15 @@
 # @Software: PyCharm
 
 """
+没有权限
 导购-链接转换1.py:
 
 领券网址!!
 
 优惠券
-http://item.taobao.com/item.htm?spm=a219t.7900221/10.1998910419.d30ccd691.17d575a5OanKMC&id=561743770998
+http://item.taobao.com/item.htm?id=561743770998
+
+这个很重要
 """
 
 from top.api import TbkCouponConvertRequest

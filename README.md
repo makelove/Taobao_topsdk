@@ -71,7 +71,7 @@
 - 应用
     - 利用【大淘客CMS】建站 http://www.dataoke.com/cms-introduce.html
         - 可以用它新建一个网站，获取API权限
-        - 演示DEMO http://youhui.dark.net.cn/
+        - 演示DEMO http://www.yangchun.so/
         - 帮助文档 http://help.dataoke.com/hc/kb/category/1012170/
         - [大淘客CMS系统如何使用](http://help.dataoke.com/hc/kb/article/1128855/)
             - 大淘客CMS系统使用首先需要拥有自己的网站，最基础就是有空间和域名，建议空间最好是支持PHP5.4及以上的，同时购买域名时请确认备案域名和注册域名一致，如出现差异是无法使用大淘客CMS系统的。
@@ -92,6 +92,7 @@
         - 直接回复转链后的淘口令
 
 - 交流   
+    - 解析淘口令-服务，请联系我
     - 加我微信:sexy8dream
         - <img src="wechat_account.jpg" width = "300" height = "300" alt="wechat_account"  />
 

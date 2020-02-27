@@ -5,6 +5,7 @@
 # @Software: PyCharm
 
 """
+有权限
 创建淘口令1.py:
 http://open.taobao.com/docs/api.htm?apiId=31127
 
@@ -22,10 +23,11 @@ req = TbkTpwdCreateRequest()
 req.set_app_info(appinfo(config.appkey, config.secret))
 
 # req.text='半身裙套装女2018新款时尚潮 港风省心搭配女装上衣短裙两件套夏'
-req.text = '雾妆上衣 清水溪原创女装改良汉服刺绣交领上衣复古针织棉外套春'
+# req.text = '雾妆上衣 清水溪原创女装改良汉服刺绣交领上衣复古针织棉外套春'
+req.text = '韩国东大门2019春夏新款复古民族风编织包头深口低跟平底半拖鞋'
 # req.url='https://item.taobao.com/item.htm?id=567873872517'
-req.url = 'https://s.click.taobao.com/t?e=m%3D2%26s%3DhcQz%2FVJ3mhwcQipKwQzePOeEDrYVVa64lwnaF1WLQxlyINtkUhsv0PmZ6XtpHWZAPYSlF0lm7fJHatIorvhTnDBUxNsqx3L7njzwEGq%2FDRvSkx9ROi4DlKXezsSnMpj3SD99OVE0eUhnZEISIab18DnpmhTObRx2eAkx3bKOzfsSDRAhaLK2V7ee%2FAGi314VtHLIDNbvfQeiZ%2BQMlGz6FQ%3D%3D&scm=null&pvid=100_11.139.186.102_1598_771555678262154878&app_pvid=59590_11.21.18.24_8144_1555678262148&ptl=floorId:2836;pvid:100_11.139.186.102_1598_771555678262154878;app_pvid:59590_11.21.18.24_8144_1555678262148&xId=Tpu3TQSqmxUd5GdBaMFSPAyNttSCsp8TTpxwNRUxhLiiFBGXHtMLHEtsEH6NaA3VZUS4ZiLmobC6WhwRIFeHvn&union_lens=lensId:0b151218_0c17_16a35a673bf_5a05'
-req.logo = 'https://img.alicdn.com/bao/uploaded/i4/113740699/TB2aYQ8b41YBuNjy1zcXXbNcXXa_!!113740699.jpg_220x220_.webp'
+req.url = 'https://s.click.taobao.com/t?e=m%3D2%26s%3D8F43%2BjiTfWMcQipKwQzePOeEDrYVVa64lwnaF1WLQxlyINtkUhsv0FSvxYuis1LoGcvgIVjTTAdHatIorvhTnDBUxNsqx3L7njzwEGq%2FDRvSkx9ROi4DlKXezsSnMpj3SD99OVE0eUi%2FsSjYM%2FueLAcJF%2FlBkX5m5UwZupjob08v3l3uT7Tftfr%2BRoxyUbBMDdFDrVj%2B9kW8ByuoqNuRlUadTiDOGWxEcSpj5qSCmbA%3D&scm=null&pvid=100_11.229.171.161_1616_5161582806071608228&app_pvid=59590_11.88.143.71_522_1582806071604&ptl=floorId:2836;originalFloorId:2836;pvid:100_11.229.171.161_1616_5161582806071608228;app_pvid:59590_11.88.143.71_522_1582806071604&xId=2xRsRttYBIo8lY84NtvmwZBcR5Jud5K369knvYqsvhgL6UQz2tqJSoTdr5b73KQPeiQ0YPtaTtauhqn6zPGGYaOB7lwTElWz39os07hxc8pS&union_lens=lensId%3AMAPI%401582806071%400b588f47_0dd4_1708697f96d_2233%4001'
+req.logo = 'https://img.alicdn.com/i1/394693657/O1CN01o1tFvd1cswvDv2Qea_!!394693657.jpg'
 
 try:
     resp = req.getResponse()

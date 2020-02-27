@@ -5,8 +5,8 @@
 # @Software: PyCharm
 
 """
+没有权限
 淘宝客商品关联推荐查询1.py:
-可以用
 
 还是没有佣金，佣金率
 还是没有优惠券
@@ -26,7 +26,7 @@ req = TbkItemRecommendGetRequest()
 req.set_app_info(appinfo(appkey, secret))
 
 req.fields = "num_iid,title,pict_url,small_images,reserve_price,zk_final_price,user_type,provcity,item_url,volume"
-req.num_iid = "568272615262"
+req.num_iid = "605650440548"
 req.platform = 2  # 链接形式：1：PC，2：无线，默认：１
 req.count = 10
 
