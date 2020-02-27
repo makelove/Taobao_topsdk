@@ -2,9 +2,9 @@
 
 
 - 视频教程-列表
-    - [B站搜索:真AI人工智能 淘宝联盟](https://search.bilibili.com/video?keyword=%E7%9C%9FAI%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%20%E6%B7%98%E5%AE%9D%E8%81%94%E7%9B%9F)
+    - [B站搜索:程序员赚钱指南 淘宝](https://search.bilibili.com/video?keyword=%E7%A8%8B%E5%BA%8F%E5%91%98%E8%B5%9A%E9%92%B1%E6%8C%87%E5%8D%97%20%E6%B7%98%E5%AE%9D)
 
-- [微信客户端](./WeiXin)
+- [微信客户端](./WeiXin) 失效
 
 
 - 文档
@@ -12,6 +12,8 @@
     - [阿里开放平台－控制台](http://console.open.taobao.com/app/appList.htm#/app/manager)
 
 - 最新消息
+    - 2020-02-01
+        - [[官方公告] 重要！淘宝联盟开发者中心上线啦！快速申请权限](https://open.alimama.com/#!/solution?id=12&url=33)
     - 2019-04-01
         - [淘宝客新等级体系正式上线&FAQ专场](https://tbk.bbs.taobao.com/detail.html?spm=a219t.7900221/1.1998910419.de4e1af6f0.6edb75a58McTjx&postId=9119458)
     - 2019-02-20
@@ -91,10 +93,9 @@
 
 - 交流   
     - 加我微信:sexy8dream
-    <img src="http://images7n.dark.net.cn/sexy8dream.jpg" width = "300" height = "300" alt="wechat_account"  />
+        - <img src="wechat_account.jpg" width = "300" height = "300" alt="wechat_account"  />
 
-    - 扫码进群
-    <img src="http://images7n.dark.net.cn/cps-union-tb-jd-pdd8.jpg" width = "300" height = "473" alt="wechat_group"  />
+    - 扫码进群。失效。先加微信
+        - <img src="http://images7n.dark.net.cn/cps-union-tb-jd-pdd8.jpg" width = "300" height = "473" alt="wechat_group"  />
 
-    - 公众号:真AI人工智能
-    <img src="http://images7n.dark.net.cn/true_ai_wxpa.jpg" width = "300" height = "300" alt="wechat_public_account"  />
+
