@@ -3,6 +3,7 @@
 
 - 视频教程-列表
     - [B站搜索:程序员赚钱指南 淘宝](https://search.bilibili.com/video?keyword=%E7%A8%8B%E5%BA%8F%E5%91%98%E8%B5%9A%E9%92%B1%E6%8C%87%E5%8D%97%20%E6%B7%98%E5%AE%9D)
+    - 最新视频 2020-2-28 [返现！淘宝客top_sdk使用指南，没有权限怎么搞？](https://www.bilibili.com/video/av92205510/)
 
 - [微信客户端](./WeiXin) 失效
 
