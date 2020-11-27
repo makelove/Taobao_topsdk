@@ -1,5 +1,8 @@
 # 淘宝客-淘宝联盟-阿里妈妈 topsdk
 
+- 其他平台
+    - [京东联盟](https://pypi.org/project/jd-union/)
+    - [拼多多](https://github.com/makelove/DDK_SDK)
 
 - 视频教程-列表
     - [B站搜索:程序员赚钱指南 淘宝](https://search.bilibili.com/video?keyword=%E7%A8%8B%E5%BA%8F%E5%91%98%E8%B5%9A%E9%92%B1%E6%8C%87%E5%8D%97%20%E6%B7%98%E5%AE%9D&order=pubdate&duration=0&tids_1=0)
