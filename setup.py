@@ -9,7 +9,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='topsdk',
-    version='19.04.13.20',  # 按日期
+    version='20.04.21.40',  # 按日期 2020-12-04 21.40
     author='top',
     author_email='play4fun@foxmail.com',
     packages=find_packages(),
