@@ -14,6 +14,9 @@
 - 文档
     - 官方-淘宝客API https://open.taobao.com/api.htm?docId=24515&docType=2
     - [阿里开放平台－控制台](http://console.open.taobao.com/app/appList.htm#/app/manager)
+    - 淘宝开放平台 [文档搜索入口](https://open.taobao.com/search.htm)
+        - 例如 阿里妈妈推广券信息查询，搜索：taobao.tbk.coupon.get
+            - https://open.taobao.com/search.htm?q=taobao.tbk.coupon.get
 
 - 最新消息
     - 2020-02-01

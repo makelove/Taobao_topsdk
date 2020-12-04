@@ -56,3 +56,13 @@ from top.api.rest.TbkScNewuserOrderSumRequest import TbkScNewuserOrderSumRequest
 from top.api.rest.TbkDgNewuserOrderSumRequest import TbkDgNewuserOrderSumRequest
 from top.api.rest.TbkDgOptimusMaterialRequest import TbkDgOptimusMaterialRequest
 #
+
+#订单  2020-12-4 新增
+from top.api.rest.TbkOrderDetailsGetRequest import TbkOrderDetailsGetRequest
+from top.api.rest.TbkActivityInfoGetRequest import TbkActivityInfoGetRequest
+from top.api.rest.TbkDgOptimusPromotionRequest import TbkDgOptimusPromotionRequest
+from top.api.rest.TbkDgVegasSendStatusRequest import TbkDgVegasSendStatusRequest
+from top.api.rest.TbkDgVegasTljCreateRequest import TbkDgVegasTljCreateRequest
+from top.api.rest.TbkDgVegasTljInstanceReportRequest import TbkDgVegasTljInstanceReportRequest
+from top.api.rest.TbkScPublisherInfoGetRequest import TbkScPublisherInfoGetRequest
+from top.api.rest.TbkScPublisherInfoSaveRequest import TbkScPublisherInfoSaveRequest

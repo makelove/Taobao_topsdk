@@ -5,6 +5,8 @@ taobao.tbk.uatm.favorites.item.get( 获取淘宝联盟选品库的宝贝信息 )
 指定选品库id，获取该选品库的宝贝信息
 
 https://open.taobao.com/api.htm?docId=26619&docType=2
+失效！
+
 '''
 from top.api.base import RestApi
 

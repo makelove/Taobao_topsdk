@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 '''
 
+指定定向招商id读取该招商内部的商品信息,taobao.tbk.uatm.event.item.get
+http://open.taobao.com/doc2/apiDetail.htm?spm=a219a.7395905.0.0.mbiEBf&apiId=26616
+
+网址失效!
 '''
 
 from top.api.base import RestApi

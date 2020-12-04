@@ -5,7 +5,10 @@ taobao.tbk.uatm.favorites.get( 获取淘宝联盟选品库列表 )
 枚举出淘宝客在淘宝联盟超级搜索，特色频道中，创建的选品库列表
 
 https://open.taobao.com/api.htm?docId=26620&docType=2
+失效
 
+创新大赛可开放API列表
+https://open.taobao.com/docV3.htm?source=search&docId=118419&docType=1
 '''
 from top.api.base import RestApi
 
