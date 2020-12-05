@@ -19,6 +19,10 @@
             - https://open.taobao.com/search.htm?q=taobao.tbk.coupon.get
 
 - 最新消息
+    - 2020-2-05
+        - 某位朋友发来最新的topsdk(系统生成)，便更新了一些api，他测试了OK
+            - 视频 [【双十二】淘宝客SDK更新一些api，购物小程序开放能力](https://www.bilibili.com/video/BV1uV411h75S/)
+        - [淘宝 购物小程序 银河计划](https://huodong.taobao.com/wow/service-market/act/recruit)
     - 2020-02-01
         - [[官方公告] 重要！淘宝联盟开发者中心上线啦！快速申请权限](https://open.alimama.com/#!/solution?id=12&url=33)
     - 2019-04-01
